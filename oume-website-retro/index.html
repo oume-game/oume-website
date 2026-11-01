@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>青梅の動画保管庫</title>
+  <meta name="description" content="青梅の動画保管庫。最新のゲーム実況動画やおすすめシリーズを紹介しています。">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="home">
+
+  <!-- 上部メニュー -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#home" class="brand">
+        <img src="images/logo.png" alt="青梅の動画保管庫">
+      </a>
+
+      <nav class="nav" aria-label="メインメニュー">
+        <a href="#latest">▶ 最新の動画</a>
+        <a href="#series">🎮 おすすめのシリーズ</a>
+        <a href="#about">青梅の動画保管庫について</a>
+        <a href="#social"> X アカウント</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ゲームセンターの看板 -->
+    <section class="hero">
+      <div class="hero-sign">
+        <p class="hero-english">OUME NO DOUGAHOKANKO</p>
+        <h1>青梅の<span>動画保管庫</span></h1>
+        <p class="hero-message">気ままにゲーム実況投稿中！</p>
+      </div>
+    </section>
+
+    <!-- 最新動画 -->
+    <section class="section latest" id="latest">
+      <div class="arcade-heading">
+        <span class="heading-icon">▶</span>
+        <h2>最新の動画</h2>
+      </div>
+
+      <div class="latest-panel">
+        <div class="video-frame">
+          <iframe
+            id="latest-video-player"
+            src=""
+            title="青梅の最新動画"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="latest-caption">
+          <span class="new-label">NEW VIDEO</span>
+          <h3 id="latest-video-title">最新動画を読み込み中...</h3>
+          <a
+            id="latest-video-link"
+            href="https://www.youtube.com/channel/UC3JdjHJ-Eyi-BrNZ4pxb1Kw"
+            target="_blank"
+            rel="noopener noreferrer">
+            YouTubeで見る ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- おすすめシリーズ -->
+    <section class="section series" id="series">
+      <div class="arcade-heading">
+        <span class="heading-icon">✦</span>
+        <h2>おすすめのシリーズ</h2>
+      </div>
+
+      <div class="series-panel">
+        <div class="series-grid">
+
+          <a class="series-card"
+             href="https://www.youtube.com/playlist?list=PLSGTPY1peMNc"
+             target="_blank" rel="noopener noreferrer">
+            <span class="card-top"></span>
+            <img src="images/banban.webp" alt="ガーテンオブバンバン">
+            <h3>ガーテンオブバンバン</h3>
+            <span class="card-button">シリーズを見る ↗</span>
+          </a>
+
+          <a class="series-card"
+             href="https://www.youtube.com/playlist?list=PLMhoi5oG4DIw"
+             target="_blank" rel="noopener noreferrer">
+            <span class="card-top"></span>
+            <img src="images/poppy.webp" alt="ポピープレイタイム">
+            <h3>ポピープレイタイム</h3>
+            <span class="card-button">シリーズを見る ↗</span>
+          </a>
+
+          <a class="series-card"
+             href="https://www.youtube.com/playlist?list=PLuE9wIQdS08bp8Me7XzLvNy7EWp72toRO"
+             target="_blank" rel="noopener noreferrer">
+            <span class="card-top"></span>
+            <img src="images/eyes.jpg" alt="アイズ：ホラーゲーム">
+            <h3>アイズ：ホラーゲーム</h3>
+            <span class="card-button">シリーズを見る ↗</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- チャンネル紹介 -->
+    <section class="section about" id="about">
+      <div class="arcade-heading">
+        <span class="heading-icon">●</span>
+        <h2>青梅の動画保管庫について</h2>
+      </div>
+
+      <div class="about-panel">
+        <div class="about-symbol" aria-hidden="true">🎮</div>
+        <div class="about-content">
+          <p>
+            ゲーム実況チャンネル「青梅の動画保管庫」。2026年5月より投稿開始。<br>
+            さまざまなゲームを自分のペースで楽しんでいます。
+          </p>
+          <a
+            class="youtube-button"
+            href="https://www.youtube.com/channel/UC3JdjHJ-Eyi-BrNZ4pxb1Kw"
+            target="_blank"
+            rel="noopener noreferrer">
+            YouTubeチャンネルを見る ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Xアカウント -->
+    <section class="section social" id="social">
+      <div class="arcade-heading">
+        <span class="heading-icon"></span>
+        <h2>X アカウント</h2>
+      </div>
+
+      <div class="social-panel">
+        <div class="social-grid">
+
+          <a class="social-card"
+             href="https://x.com/oume_justice"
+             target="_blank"
+             rel="noopener noreferrer">
+            <span class="social-icon" aria-hidden="true">📢</span>
+            <div class="social-content">
+              <span class="social-type">☆ 告知用</span>
+              <h3>青梅の動画保管庫</h3>
+              <p>@oume_justice</p>
+              <span class="social-button">Xアカウントを見る ↗</span>
+            </div>
+          </a>
+
+          <a class="social-card"
+             href="https://x.com/god_pa09"
+             target="_blank"
+             rel="noopener noreferrer">
+            <span class="social-icon" aria-hidden="true">🎮</span>
+            <div class="social-content">
+              <span class="social-type">★ リアルなゲームアカウント</span>
+              <h3>冨樫〆牛タン〆</h3>
+              <p>@god_pa09</p>
+              <span class="social-button">Xアカウントを見る ↗</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 街並みの装飾 -->
+  <div class="pixel-city" aria-hidden="true"></div>
+
+  <footer class="footer">
+    <p>© 2026 青梅の動画保管庫</p>
+  </footer>
+
+  <!-- 既存の最新動画取得プログラム -->
+  <script src="images/script.js"></script>
+</body>
+</html>
